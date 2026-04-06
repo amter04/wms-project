@@ -170,7 +170,7 @@ export default function Login() {
             
           </form>
 
-          {/* INDICATIONS POUR LE JURY / TESTEUR */}
+          {}
           <div className="mt-8 pt-6 border-t border-slate-100 text-center">
             <p className="text-xs text-slate-400">
               Système d'Authentification Sécurisé WMS

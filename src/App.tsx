@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from './Login';
-import Dashboard from './Dashboard'; // Ton tableau de bord Client
-import AdminPanel from './AdminPanel'; // Le nouveau tableau Admin
+import Dashboard from './Dashboard'; // tableau de bord Client
+import AdminPanel from './AdminPanel'; // nouveau tableau Admin
 
 export default function App() {
   return (

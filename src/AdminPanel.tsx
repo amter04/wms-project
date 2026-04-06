@@ -21,7 +21,7 @@ export default function AdminPanel() {
   const [artName, setArtName] = useState('');
   const [artSku, setArtSku] = useState('');
 
-  // ... (Garde tes autres états : companyName, newWhName, etc.)
+  
   const [companyName, setCompanyName] = useState('');
   const [fullName, setFullName] = useState('');
   const [phone, setPhone] = useState('');
@@ -80,7 +80,7 @@ export default function AdminPanel() {
     else fetchData();
   };
 
-  // ... (Garde tes fonctions handleCreateWarehouse, handleCreateClient, handleAcceptResiliationFromNotif)
+
   const handleAcceptResiliationFromNotif = async (notif: any) => {
     const confirmRevoke = window.confirm(`Voulez-vous vraiment accepter la résiliation de "${notif.company_name}" ?`);
     if (!confirmRevoke) return;
